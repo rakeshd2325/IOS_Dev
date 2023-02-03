@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3B63522537F9CB008CB9B1 /* RecordLabelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63512537F9CB008CB9B1 /* RecordLabelAppApp.swift */; };
+		8E3B63542537F9CB008CB9B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63532537F9CB008CB9B1 /* ContentView.swift */; };
+		8E3B63562537F9CD008CB9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B63552537F9CD008CB9B1 /* Assets.xcassets */; };
+		8E3B63592537F9CD008CB9B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B63582537F9CD008CB9B1 /* Preview Assets.xcassets */; };
+		8E3B63642537F9CE008CB9B1 /* RecordLabelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63632537F9CE008CB9B1 /* RecordLabelAppTests.swift */; };
+		8E3B636F2537F9CE008CB9B1 /* RecordLabelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B636E2537F9CE008CB9B1 /* RecordLabelAppUITests.swift */; };
+		8E3B63802537FA45008CB9B1 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B637F2537FA45008CB9B1 /* Data.json */; };
+		8E3B63852537FA73008CB9B1 /* ModelsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63842537FA73008CB9B1 /* ModelsTest.swift */; };
+		8E3B638A2537FAC2008CB9B1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63892537FAC2008CB9B1 /* Models.swift */; };
+		8E3B638E2537FAC9008CB9B1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63892537FAC2008CB9B1 /* Models.swift */; };
+		8E3B63992537FC25008CB9B1 /* FestivalsServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B63982537FC25008CB9B1 /* FestivalsServiceAPI.swift */; };
+		8E3B63B0253812DA008CB9B1 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B637F2537FA45008CB9B1 /* Data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E3B63602537F9CE008CB9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3B63462537F9CB008CB9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3B634D2537F9CB008CB9B1;
+			remoteInfo = RecordLabelApp;
+		};
+		8E3B636B2537F9CE008CB9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3B63462537F9CB008CB9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3B634D2537F9CB008CB9B1;
+			remoteInfo = RecordLabelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3B634E2537F9CB008CB9B1 /* RecordLabelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordLabelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3B63512537F9CB008CB9B1 /* RecordLabelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLabelAppApp.swift; sourceTree = "<group>"; };
+		8E3B63532537F9CB008CB9B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E3B63552537F9CD008CB9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3B63582537F9CD008CB9B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E3B635A2537F9CD008CB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3B635F2537F9CE008CB9B1 /* RecordLabelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordLabelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3B63632537F9CE008CB9B1 /* RecordLabelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLabelAppTests.swift; sourceTree = "<group>"; };
+		8E3B63652537F9CE008CB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3B636A2537F9CE008CB9B1 /* RecordLabelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordLabelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3B636E2537F9CE008CB9B1 /* RecordLabelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLabelAppUITests.swift; sourceTree = "<group>"; };
+		8E3B63702537F9CE008CB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3B637F2537FA45008CB9B1 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		8E3B63842537FA73008CB9B1 /* ModelsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTest.swift; sourceTree = "<group>"; };
+		8E3B63892537FAC2008CB9B1 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8E3B63982537FC25008CB9B1 /* FestivalsServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalsServiceAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3B634B2537F9CB008CB9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3B635C2537F9CE008CB9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3B63672537F9CE008CB9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3B63452537F9CB008CB9B1 = {
+			isa = PBXGroup;
+			children = (
+				8E3B63502537F9CB008CB9B1 /* RecordLabelApp */,
+				8E3B63622537F9CE008CB9B1 /* RecordLabelAppTests */,
+				8E3B636D2537F9CE008CB9B1 /* RecordLabelAppUITests */,
+				8E3B634F2537F9CB008CB9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3B634F2537F9CB008CB9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B634E2537F9CB008CB9B1 /* RecordLabelApp.app */,
+				8E3B635F2537F9CE008CB9B1 /* RecordLabelAppTests.xctest */,
+				8E3B636A2537F9CE008CB9B1 /* RecordLabelAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3B63502537F9CB008CB9B1 /* RecordLabelApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B63512537F9CB008CB9B1 /* RecordLabelAppApp.swift */,
+				8E3B63532537F9CB008CB9B1 /* ContentView.swift */,
+				8E3B63892537FAC2008CB9B1 /* Models.swift */,
+				8E3B63982537FC25008CB9B1 /* FestivalsServiceAPI.swift */,
+				8E3B63552537F9CD008CB9B1 /* Assets.xcassets */,
+				8E3B635A2537F9CD008CB9B1 /* Info.plist */,
+				8E3B63572537F9CD008CB9B1 /* Preview Content */,
+			);
+			path = RecordLabelApp;
+			sourceTree = "<group>";
+		};
+		8E3B63572537F9CD008CB9B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B63582537F9CD008CB9B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E3B63622537F9CE008CB9B1 /* RecordLabelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B63842537FA73008CB9B1 /* ModelsTest.swift */,
+				8E3B637F2537FA45008CB9B1 /* Data.json */,
+				8E3B63632537F9CE008CB9B1 /* RecordLabelAppTests.swift */,
+				8E3B63652537F9CE008CB9B1 /* Info.plist */,
+			);
+			path = RecordLabelAppTests;
+			sourceTree = "<group>";
+		};
+		8E3B636D2537F9CE008CB9B1 /* RecordLabelAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B636E2537F9CE008CB9B1 /* RecordLabelAppUITests.swift */,
+				8E3B63702537F9CE008CB9B1 /* Info.plist */,
+			);
+			path = RecordLabelAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3B634D2537F9CB008CB9B1 /* RecordLabelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3B63732537F9CE008CB9B1 /* Build configuration list for PBXNativeTarget "RecordLabelApp" */;
+			buildPhases = (
+				8E3B634A2537F9CB008CB9B1 /* Sources */,
+				8E3B634B2537F9CB008CB9B1 /* Frameworks */,
+				8E3B634C2537F9CB008CB9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordLabelApp;
+			productName = RecordLabelApp;
+			productReference = 8E3B634E2537F9CB008CB9B1 /* RecordLabelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E3B635E2537F9CE008CB9B1 /* RecordLabelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3B63762537F9CE008CB9B1 /* Build configuration list for PBXNativeTarget "RecordLabelAppTests" */;
+			buildPhases = (
+				8E3B635B2537F9CE008CB9B1 /* Sources */,
+				8E3B635C2537F9CE008CB9B1 /* Frameworks */,
+				8E3B635D2537F9CE008CB9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3B63612537F9CE008CB9B1 /* PBXTargetDependency */,
+			);
+			name = RecordLabelAppTests;
+			productName = RecordLabelAppTests;
+			productReference = 8E3B635F2537F9CE008CB9B1 /* RecordLabelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E3B63692537F9CE008CB9B1 /* RecordLabelAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3B63792537F9CE008CB9B1 /* Build configuration list for PBXNativeTarget "RecordLabelAppUITests" */;
+			buildPhases = (
+				8E3B63662537F9CE008CB9B1 /* Sources */,
+				8E3B63672537F9CE008CB9B1 /* Frameworks */,
+				8E3B63682537F9CE008CB9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3B636C2537F9CE008CB9B1 /* PBXTargetDependency */,
+			);
+			name = RecordLabelAppUITests;
+			productName = RecordLabelAppUITests;
+			productReference = 8E3B636A2537F9CE008CB9B1 /* RecordLabelAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3B63462537F9CB008CB9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8E3B634D2537F9CB008CB9B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8E3B635E2537F9CE008CB9B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8E3B634D2537F9CB008CB9B1;
+					};
+					8E3B63692537F9CE008CB9B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8E3B634D2537F9CB008CB9B1;
+					};
+				};
+			};
+			buildConfigurationList = 8E3B63492537F9CB008CB9B1 /* Build configuration list for PBXProject "RecordLabelApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E3B63452537F9CB008CB9B1;
+			productRefGroup = 8E3B634F2537F9CB008CB9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3B634D2537F9CB008CB9B1 /* RecordLabelApp */,
+				8E3B635E2537F9CE008CB9B1 /* RecordLabelAppTests */,
+				8E3B63692537F9CE008CB9B1 /* RecordLabelAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3B634C2537F9CB008CB9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3B63592537F9CD008CB9B1 /* Preview Assets.xcassets in Resources */,
+				8E3B63562537F9CD008CB9B1 /* Assets.xcassets in Resources */,
+				8E3B63B0253812DA008CB9B1 /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3B635D2537F9CE008CB9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3B63802537FA45008CB9B1 /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3B63682537F9CE008CB9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3B634A2537F9CB008CB9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3B638A2537FAC2008CB9B1 /* Models.swift in Sources */,
+				8E3B63542537F9CB008CB9B1 /* ContentView.swift in Sources */,
+				8E3B63522537F9CB008CB9B1 /* RecordLabelAppApp.swift in Sources */,
+				8E3B63992537FC25008CB9B1 /* FestivalsServiceAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3B635B2537F9CE008CB9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3B638E2537FAC9008CB9B1 /* Models.swift in Sources */,
+				8E3B63642537F9CE008CB9B1 /* RecordLabelAppTests.swift in Sources */,
+				8E3B63852537FA73008CB9B1 /* ModelsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3B63662537F9CE008CB9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3B636F2537F9CE008CB9B1 /* RecordLabelAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3B63612537F9CE008CB9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3B634D2537F9CB008CB9B1 /* RecordLabelApp */;
+			targetProxy = 8E3B63602537F9CE008CB9B1 /* PBXContainerItemProxy */;
+		};
+		8E3B636C2537F9CE008CB9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3B634D2537F9CB008CB9B1 /* RecordLabelApp */;
+			targetProxy = 8E3B636B2537F9CE008CB9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E3B63712537F9CE008CB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E3B63722537F9CE008CB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3B63742537F9CE008CB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RecordLabelApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 24K88M24JR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RecordLabelApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhogames.RecordLabelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E3B63752537F9CE008CB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RecordLabelApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 24K88M24JR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RecordLabelApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhogames.RecordLabelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E3B63772537F9CE008CB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24K88M24JR;
+				INFOPLIST_FILE = RecordLabelAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhogames.RecordLabelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLabelApp.app/RecordLabelApp";
+			};
+			name = Debug;
+		};
+		8E3B63782537F9CE008CB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24K88M24JR;
+				INFOPLIST_FILE = RecordLabelAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhogames.RecordLabelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLabelApp.app/RecordLabelApp";
+			};
+			name = Release;
+		};
+		8E3B637A2537F9CE008CB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24K88M24JR;
+				INFOPLIST_FILE = RecordLabelAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhogames.RecordLabelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordLabelApp;
+			};
+			name = Debug;
+		};
+		8E3B637B2537F9CE008CB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24K88M24JR;
+				INFOPLIST_FILE = RecordLabelAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhogames.RecordLabelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordLabelApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3B63492537F9CB008CB9B1 /* Build configuration list for PBXProject "RecordLabelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3B63712537F9CE008CB9B1 /* Debug */,
+				8E3B63722537F9CE008CB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3B63732537F9CE008CB9B1 /* Build configuration list for PBXNativeTarget "RecordLabelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3B63742537F9CE008CB9B1 /* Debug */,
+				8E3B63752537F9CE008CB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3B63762537F9CE008CB9B1 /* Build configuration list for PBXNativeTarget "RecordLabelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3B63772537F9CE008CB9B1 /* Debug */,
+				8E3B63782537F9CE008CB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3B63792537F9CE008CB9B1 /* Build configuration list for PBXNativeTarget "RecordLabelAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3B637A2537F9CE008CB9B1 /* Debug */,
+				8E3B637B2537F9CE008CB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3B63462537F9CB008CB9B1 /* Project object */;
+}
